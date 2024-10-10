@@ -1,0 +1,16 @@
+body {
+    margin: 0; /* Remove default margin */
+    display: flex; /* Use flexbox to center content */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full viewport height */
+    background-color: #000; /* Black background */
+}
+
+#pongCanvas {
+    background: #fff; /* White background for the canvas */
+    width: 100%; /* Responsive width */
+    height: 100%; /* Responsive height */
+    max-width: 600px; /* Max width for canvas */
+    max-height: 800px; /* Max height for canvas */
+}
